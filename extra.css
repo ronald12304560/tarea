@@ -1,0 +1,134 @@
+body{
+	font-family: 'Dancing Script', cursive;
+	background-color: #02010a;
+	font-weight: 600;
+	height: 100%;
+	transform: translate(0,-550px);
+}
+.contenido{
+	width: 90%;
+	height: 90%;
+	margin:auto;
+	transition: all 3s;
+	transform: translate(0,550px);
+}
+.cabecera{
+	border-radius: 10px 10 0 0;
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	background: #5b7989;
+}
+.titulo{
+	color:white;
+	text-shadow: 2px 2px 2px #02010a;
+	margin: auto;
+	font-size: 212%;
+	text-align: center;
+}
+.menu{
+	font-size:136%;
+	margin: auto;
+}
+a{
+	list-style-type: none;
+	color:white;
+	text-decoration: none;
+}
+.menu ul{
+	margin-left: -8%;
+}
+.menu li{
+	list-style-type: none;
+	display: inline-block;;
+	color: white;
+}
+.subcontenido{
+	background-color: #E1BB68;
+	width: 100%;
+}
+.sec img{
+	transition: all 1s;
+	margin: auto;
+	display: block;
+	width: 95%;
+	border: 1px solid #02010a;
+}
+.secundarias{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.sec{
+	margin: auto;
+	text-align: center;
+	width: 300px;
+}
+.sec a{
+	color:black;
+}
+#img01:hover{
+	transition: all 1s;
+	transform: rotate(10deg);
+	box-shadow: 2px 2px 2px #82c3a6;
+}
+#img02:hover {
+	transform: translate(20px,-5px);
+}
+.fooder{
+	border-right: 0 0 10px 10px;
+	background-color: #C6d5c5;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.fooder a{
+	color: black;	
+}
+.con{
+	margin-left: 5%;
+	width: 200px;
+	font-size: 20px;
+}
+.con img{
+	width: 25px;
+}
+	
+#contenedor{
+	margin: 10px auto;
+	width: 540px;
+	height: 115px;
+}
+.reloj{
+	float: left;
+	font-size: 80px;
+	font-family: Courier,sans-serif;
+	color:  #02010a;
+}
+.boton{
+	outline: none;
+	border: 1px solid #363431;
+	color: white;
+	width: 128px;
+	height: 30px;
+	text-shadow: 0px -1px 1px black;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: Helvetica;
+	cursor: pointer;
+	background-image: linear-gradient( #02010a,#2c6f05);
+}
+.boton:active{
+	background-image: linear-gradient( #02010a,#3aad02);
+}
+.boton:hover{
+	box-shadow: 0px 0px 14px #3aad02;
+}
+#img01{
+	filter: blur(10px);
+}
+#img02{
+	filter: grayscale();
+}

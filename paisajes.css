@@ -1,0 +1,107 @@
+body{
+	font-family: 'Dancing Script', cursive;
+	background-color: #02010a;
+	font-weight: 600;
+	height: 100%;
+	transform: translate(0,-550px);
+}
+.contenido{
+	width: 90%;
+	height: 90%;
+	margin:auto;
+	transition: all 0.5s;
+	transform: translate(0,550px);
+}
+.cabecera{
+	border-radius: 10px 10 0 0;
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	background: #5b7989;
+}
+.titulo{
+	color:white;
+	text-shadow: 2px 2px 2px #02010a;
+	margin: auto;
+	font-size: 212%;
+	text-align: center;
+}
+.menu{
+	font-size:136%;
+	margin: auto;
+}
+a{
+	list-style: none;
+	color:white;
+	text-decoration: none;
+}
+.menu ul{
+	margin-left: -8%;
+}
+.menu li{
+	list-style-type: none;
+	display: inline-block;;
+	color: white;
+}
+.container{
+	background-color: #E1BB68;
+	width: 100%;
+}
+.secun img{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	display: block;
+	width: 95%;
+	border: 2px solid  #02010a;
+}
+.secu{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.secun{
+	margin: auto;
+	text-align: center;
+	width: 500px;
+}
+.secun a{
+	color:black;
+}
+.fooder{
+	border-radius: 0 0 10px 10px;
+	background-color: #C6d5c5;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.fooder a{
+	color: black;
+}
+.con{
+	margin-left: 5%;
+	width: 200px;
+	font-size: 20px;
+}
+#img01{
+	filter: blur(10px);
+}
+#img02{
+	filter: grayscale(100%);
+}
+#img03{
+	filter: sepia(100%);
+}
+#img04{
+	filter: grayscale(80%);
+}
+#img06{
+	filter: grayscale(100%);
+}
+.container img{
+	width: 100%;
+}
+.con img{
+	width: 25px;
+}
